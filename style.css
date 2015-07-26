@@ -92,14 +92,16 @@ ul li p {
     font-size: 15px;
 }
 
+.portfolio{
+    padding-bottom: 50px;
+}
 .portfolio ul{
     margin-top: 70px;
 }
 .portfolio ul li{
-	padding: 0 -5px;
+	padding: 0 0 20px 0;
     margin: 0 10px;
     background-color: #fff;
-    padding:0;
 }
 .portfolio ul li p{
     font-style: italic;
@@ -113,6 +115,51 @@ ul li p {
 	margin: 0;
 	padding: 0 -5px;
 }
+
+.about {
+    background-color: #fff;
+}
+.about_us{
+    margin: 50px 0;
+}
+.about_us img{
+    border: solid 7px #F7F7F7;
+    border-radius: 100px;
+}
+.left{
+    display: inline-block;
+    text-align: left;
+    padding: 0 20px;
+}
+.right{
+    display: inline-block;
+    text-align: right;
+    padding: 0 20px;
+}
+.left_block{
+    margin-left: 21%;
+}
+.right_block{
+   margin-right: 21%;
+}
+.about_us div p{
+    font-size: 13px;
+    width: 250px;
+}
+.left h4{
+    margin:0;
+}
+.right h4{
+    margin:0; 
+}
+.caps{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+
+
 
 form input {
     margin: 5px;
